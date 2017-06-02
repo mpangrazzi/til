@@ -2,7 +2,7 @@
 
 > 📝 Today I learned
 
-Things I learned which may be useful to remember and share.
+Things I learned which may be useful remember and/or share.
 
 # License
 
