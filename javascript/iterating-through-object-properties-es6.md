@@ -28,7 +28,7 @@ for (let [key, value] of Object.entries(obj)) {
 }
 ```
 
-Which I think is way more elegant and useful. Basically, here we are using those ES6 features:
+Which I think is **way more elegant and useful**. Basically, here we are using those ES6 features:
 
 - [Object.entries](https://developer.mozilla.org/it/docs/Web/JavaScript/Reference/Global_Objects/Object/entries) 
 - [Destructuring assignment](https://developer.mozilla.org/it/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
