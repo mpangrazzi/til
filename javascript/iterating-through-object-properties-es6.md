@@ -4,7 +4,7 @@ Iterating through object properties with ES6
 When I have to iterate through _plain_ JavaScript objects, I usually do something like:
 
 ```js
-for (var key in obj) {
+for (let key in obj) {
   console.log(key + " -> " + obj[key]);
 }
 ```
@@ -12,7 +12,7 @@ for (var key in obj) {
 And, if the object has a _non-default_ prototype:
 
 ```js
-for (var key in obj) {
+for (let key in obj) {
   if (obj.hasOwnProperty(key)) {
     console.log(key + " -> " + obj[key]);
   }
