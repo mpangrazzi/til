@@ -13,7 +13,7 @@ And, if the object has a _non-default_ prototype:
 
 ```js
 for (var key in obj) {
-  if (obj.hasOwnobjroperty(key)) {
+  if (obj.hasOwnProperty(key)) {
     console.log(key + " -> " + obj[key]);
   }
 }
