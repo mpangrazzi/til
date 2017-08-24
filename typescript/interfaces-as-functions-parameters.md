@@ -36,15 +36,15 @@ In **TypeScript** you can do the same thing in the same way if you want, but ano
 
   function example(params: IExampleParams) {
     params.url                            // `url` is mandatory a string
-    let data = params.data || { a: 'b' }  // data could be undefined
+    let data = params.data || { a: 'b' }  // `data` could be undefined
 
     // ...
   }
 
-  function example(params?: IExampleParams) { // Also, params interface could be not mandatory...
+  function example(params?: IExampleParams) { // Also, `params` interface could be not mandatory...
     params = params || {}                     // ... and if it's missing, you'll have to assign a default value
-    params.url                                // is mandatory and is a string
-    let data = params.data || { a: 'b' }      // check if present because it's not mandatory
+    params.url                                // `url` is mandatory and is a string
+    let data = params.data || { a: 'b' }      // check if `data` present because it's not mandatory
 
     // ...
   }
