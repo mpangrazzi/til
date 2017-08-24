@@ -25,7 +25,7 @@ In **JavaScript** when you have to manage multiple arguments in a funcion with s
 
 Which is perfectly fine and works great.
 
-In **TypeScript** you can do the same thing in the same way if you want, but another nice way could be using an [Interface](https://www.typescriptlang.org/docs/handbook/interfaces.html) as the only argument:
+In **TypeScript** you can do the same thing in the same way if you want, but you can also use an [Interface](https://www.typescriptlang.org/docs/handbook/interfaces.html) as the only argument, taking advantage of some language features:
 
 ```ts
   interface IExampleParams {
